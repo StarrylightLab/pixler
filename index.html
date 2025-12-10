@@ -86,7 +86,8 @@
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             // Use absolute path /sw.js to ensure correct loading from root
-            navigator.serviceWorker.register('/sw.js')
+
+            navigator.serviceWorker.register('/pixler/sw.js')
                 .then(registration => {
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
                 })
