@@ -1,6 +1,6 @@
 const CACHE_NAME = 'pixler-v1';
 const urlsToCache = [
-    '/',
+    '/pixler/',
     '/index.html',
     '/manifest.json'
 ];
