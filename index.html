@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/react-toastify@11.0.5/dist/ReactToastify.min.css" />
 
     <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- <script>
         tailwind.config = {
             darkMode: 'class',
             theme: {
@@ -63,7 +63,7 @@
                 }
             }
         }
-    </script>
+    </script> -->
 
 
     <script type="importmap">
@@ -83,8 +83,8 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/pixler/assets/index-Cf6QNIUI.js"></script>
-  <link rel="stylesheet" crossorigin href="/pixler/assets/index-8VFbTEbJ.css">
+  <script type="module" crossorigin src="/pixler/assets/index-Yl5HaZRx.js"></script>
+  <link rel="stylesheet" crossorigin href="/pixler/assets/index-Q2Af9k1x.css">
 </head>
 <body class="bg-gray-100 dark:bg-gray-950 text-gray-900 dark:text-gray-100 overflow-hidden transition-colors duration-300 font-zh">
 <div id="root"></div>
@@ -97,7 +97,7 @@
     // 只有在非 iframe 环境（即独立打开页面时）才尝试注册 SW，减少预览环境报错
     if ('serviceWorker' in navigator && window.self === window.top) {
         window.addEventListener('load', () => {
-            navigator.serviceWorker.register('./sw.js')
+            navigator.serviceWorker.register('/sw.js')
                 .then(registration => {
                     console.log('SW registered:', registration.scope);
                 })
