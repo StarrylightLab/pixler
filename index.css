@@ -1,0 +1,108 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Main Font (8px-zh.otf) - Used for UI and Canvas Titles */
+@font-face {
+  font-family: 'PixelMain';
+  /* Files in public/fonts/ are accessed via /fonts/ */
+  src: url('fonts/10px-zh_hans.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* IBM Font (JetB.ttf) - Used for Canvas Data/Legend/Grid */
+@font-face {
+  font-family: 'PixelIBM';
+  /* Files in public/fonts/ are accessed via /fonts/ */
+  src: url('fonts/JetB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Map all language classes to the single main pixel font */
+.font-zh, .font-ja, .font-en { font-family: 'PixelMain', sans-serif; }
+
+html, body {
+  /* Prevent bounce effect on iOS */
+  overscroll-behavior: none;
+  /* Prevent double-tap zoom */
+  touch-action: manipulation;
+  /* Prevent font scaling in landscape */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'PixelMain', sans-serif;
+}
+
+/* Utility classes */
+.custom-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+.custom-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Webkit */
+}
+
+/* Pixel Animation */
+@keyframes pixel-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-pixel-spin {
+  animation: pixel-spin 0.8s steps(8) infinite;
+}
+
+/* 滑杆轨道 */
+input[type='range'] {
+  height: 16px;  
+  background-color: transparent; /* 浅灰色 */
+  border: none;                                /* 去掉原来的 border */
+  border-radius: 0px;  
+  outline: 1px solid rgba(156, 163, 175, 0.3);
+  outline-offset: 1px;
+  margin-bottom: 8px;
+  appearance: none;
+}
+
+/* Chrome / Edge / Safari handle */
+input[type='range']::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  background-color: #D9367F; /* 或直接 #D9367F */
+  border-radius: 0;
+  border: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  
+}
+
+/* Firefox handle */
+input[type='range']::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background-color: #D9367F;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* Firefox 轨道 */
+input[type='range']::-moz-range-track {
+  height: 16px;
+  background-color: transparent;
+  outline: 1px solid rgba(156, 163, 175, 0.3) ;
+  border-radius: 0px;
+}
+
+/* Toastify Customization */
+.Toastify__toast {
+  border-radius: 0 !important;
+  font-family: 'PixelMain', sans-serif !important;
+  border: 1px solid #374151; /* gray-700 */
+}

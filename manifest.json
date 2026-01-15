@@ -1,10 +1,8 @@
-
 {
   "name": "Pixler",
   "short_name": "Pixler",
-  "start_url": "/pixler/",
-  "scope": "/pixler/",
-  "homepage_url": "https://starrylightlab.github.io/pixler/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#D9367F",
@@ -19,7 +17,6 @@
       "src": "/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
-
     },
     {
       "src": "/icons/icon-maskable-192.png",
@@ -34,18 +31,18 @@
       "purpose": "maskable"
     }
   ],
-    "screenshots": [
-      {
-        "src": "/screenshots/mobile.png",
-        "sizes": "1080x1920",
-        "type": "image/png",
-        "form_factor": "narrow"
-      },
-      {
-        "src": "/screenshots/desktop.png",
-        "sizes": "1920x1080",
-        "type": "image/png",
-        "form_factor": "wide"
-      }
-    ]
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
 }
