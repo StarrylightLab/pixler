@@ -1,9 +1,0 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5 13H11V15H9V17H5V19H1V15H3V11H5V13Z" fill="black"/>
-<path d="M13 13H11V11H13V13Z" fill="black"/>
-<path d="M17 13H15V11H17V13Z" fill="black"/>
-<path d="M7 11H5V9H7V11Z" fill="black"/>
-<path d="M15 11H13V9H11V7H9V5H13V1H17V3H19V7H15V11Z" fill="black"/>
-<path d="M9 9H7V7H9V9Z" fill="black"/>
-<path d="M9 5H7V3H9V5Z" fill="black"/>
-</svg>
