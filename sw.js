@@ -5,8 +5,10 @@ const urlsToCache = [
     '/manifest.json'
 ];
 
-self.addEventListener('install', event => {
+self.addEventListener('install', event => {//
+    // 1. Force the waiting service worker to become the active service worker. OKOKOKOK
     self.skipWaiting();
+
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => {
@@ -16,7 +18,9 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('activate', event => {
+    // 2. Tell the active service worker to take control of the page immediately.
     event.waitUntil(clients.claim());
+
     const cacheWhitelist = [CACHE_NAME];
     event.waitUntil(
         caches.keys().then(cacheNames => {
