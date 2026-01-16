@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "PATH=/usr/bin:/usr/local/bin:$PATH gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
