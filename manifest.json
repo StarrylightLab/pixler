@@ -1,8 +1,8 @@
 {
   "name": "Pixler",
   "short_name": "Pixler",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "/pixler/",
+  "scope": "/pixler/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#D9367F",
