@@ -1,8 +1,8 @@
 const CACHE_NAME = 'pixler-v2';
 const urlsToCache = [
     '/pixler/',
-    '/index.html',
-    '/manifest.json'
+    '/pixler/index.html',
+    '/pixler/manifest.json'
 ];
 
 self.addEventListener('install', event => {
