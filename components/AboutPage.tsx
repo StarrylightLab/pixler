@@ -5,8 +5,8 @@ import { t } from '../utils/translations';
 import { Language } from '../types';
 
 // Images are in the public folder, so we reference them from root URL
-const alipayQrImg = '/public/alipay-qrcode.png';
-const wechatQrImg = '/public/wechat-dashang.png';
+const alipayQrImg = 'pixler/alipay-qrcode.png';
+const wechatQrImg = 'pixler/wechat-dashang.png';
 
 interface Props {
   lang: Language;
