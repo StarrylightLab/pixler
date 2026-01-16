@@ -77,7 +77,15 @@ export const ScopeNoneIcon = (props: IconProps) => Svg20(props, <><path d="M15 1
 export const LegendPositionIcon = (props: IconProps) => Svg(props, <path fillRule="evenodd" clipRule="evenodd" d="M2 0H22V24H2V0ZM4 2V22H20V2H4ZM6 4H12V10H6V4ZM10 6H8V8H10V6ZM14 6H18V12H16V8H14V6ZM6 12H8V16H10V18H6V12ZM12 14H18V20H12V14ZM16 16H14V18H16V16Z" fill="currentColor"/>);
 export const MajorGridIntervalIcon = (props: IconProps) => Svg(props, <><path d="M8 18H6V16H8V18Z" fill="currentColor"/><path d="M14 18H10V16H14V18Z" fill="currentColor"/><path d="M16 10H12V12H16V16H14V14H10V8H16V10Z" fill="currentColor"/><path d="M8 14H6V12H8V14Z" fill="currentColor"/><path d="M8 10H6V8H8V10Z" fill="currentColor"/><path fillRule="evenodd" clipRule="evenodd" d="M22 22H2V2H22V22ZM4 6H6V8H4V10H6V12H4V14H6V16H4V18H6V20H18V18H20V16H18V14H20V10H18V8H20V6H18V4H16V6H14V4H12V6H10V4H8V6H6V4H4V6Z" fill="currentColor"/></>);
 export const SortIcon = (props: IconProps) => Svg(props, <path fillRule="evenodd" clipRule="evenodd" d="M14 2H20V8H14V10H12V12H10V14H8V20H2V14H8V12H10V10H12V8H14V2ZM18 4H16V6H18V4ZM2 4H12V6H2V4ZM16 12H18V14H20V16H22V18H20V20H18V22H16V20H18V18H10V16H18V14H16V12ZM6 16H4V18H6V16Z" fill="currentColor"/>);
-export const ScaleIcon = (props: IconProps) => Svg(props, <><path d="M22 12H20V4H4V20H12V22H2V22V12Z" fill="currentColor"/><path d="M22 22H14V20H18V18H20V14H22V22Z" fill="currentColor"/><path d="M18 18H16V16H18V18Z" fill="currentColor"/><path d="M16 10H12V12H10V16H8V8H16V10Z" fill="currentColor"/><path d="M16 16H14V14H16V16Z" fill="currentColor"/><path d="M14 14H12V12H14V14Z" fill="currentColor"/></>);
+export const ScaleIcon = (props: IconProps) => Svg(props, <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path d="M22 12H20V4H4V20H12V22H2V2H22V12Z" fill="currentColor"/>
+<path d="M22 22H14V20H18V18H20V14H22V22Z" fill="currentColor"/>
+<path d="M18 18H16V16H18V18Z" fill="currentColor"/>
+<path d="M16 10H12V12H10V16H8V8H16V10Z" fill="currentColor"/>
+<path d="M16 16H14V14H16V16Z" fill="currentColor"/>
+<path d="M14 14H12V12H14V14Z" fill="currentColor"/>
+</svg>
+);
 export const MarginIcon = (props: IconProps) => Svg(props, <><path d="M14 8H8V16H16V10H18V18H6V6H14V8Z" fill="currentColor"/><path fillRule="evenodd" clipRule="evenodd" d="M18 4H20V6H22V22H2V2H18V4ZM4 20H20V8H16V4H4V20Z" fill="currentColor"/></>);
 export const DrawingContentIcon = (props: IconProps) => Svg(props, <><path fillRule="evenodd" clipRule="evenodd" d="M3 0H21V6H17V10H19V14H21V16H19V18H17V20H15V22H13V24H11V22H9V20H11V16H13V20H15V18H17V16H19V14H17V10H15V6H9V10H7V14H5V16H7V18H9V20H7V18H5V16H3V14H5V10H7V6H3V0ZM5 2V4H19V2H5ZM11 12H13V14H15V16H13V14H11V16H9V14H11V12Z" fill="currentColor"/></>);
 
