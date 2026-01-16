@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'PixelMain';
   /* Files in public/fonts/ are accessed via /fonts/ */
-  src: url('/public/fonts/10px-zh_hans.otf') format('opentype');
+  src: url('/fonts/10px-zh_hans.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'PixelIBM';
   /* Files in public/fonts/ are accessed via /fonts/ */
-  src: url('/public/fonts/JetB.ttf') format('truetype');
+  src: url('/fonts/JetB.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

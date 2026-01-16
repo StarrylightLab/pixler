@@ -64,7 +64,7 @@ const App: React.FC = () => {
             for (const path of paths) {
                 try {
                     const resp = await fetch(path);
-                    console.log(`[App] Trying fetch path: ${path}, Status: ${resp.status}`);
+                    //console.log(`[App] Trying fetch path: ${path}, Status: ${resp.status}`);
                     
                     if (resp.ok) {
                         let text = await resp.text();

@@ -7,25 +7,25 @@ export default defineConfig({
   base: '/pixler', 
   plugins: [
     react(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: 'public',
-          dest: '.'
-        },{
-          src: 'assets',
-          dest: '.'
-        },
-        {
-          src: 'manifest.json',
-          dest: '.'
-        },
-        {
-          src: 'sw.js',
-          dest: '.'
-        }
-      ]
-    })
+    // viteStaticCopy({
+    //   targets: [
+    //     {
+    //       src: 'public',
+    //       dest: '.'
+    //     },{
+    //       src: 'assets',
+    //       dest: '.'
+    //     },
+    //     {
+    //       src: 'manifest.json',
+    //       dest: '.'
+    //     },
+    //     {
+    //       src: 'sw.js',
+    //       dest: '.'
+    //     }
+    //   ]
+    // })
   ],
   build: {
     outDir: 'dist',
